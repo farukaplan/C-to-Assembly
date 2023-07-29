@@ -1,3 +1,6 @@
+//gcc -o output first_asmReady1.c
+//./output
+
 #include <stdio.h>
 
 void write9digits(int number) {
