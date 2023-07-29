@@ -1,3 +1,6 @@
+//gcc -o output first.c
+//./output
+
 #include <stdio.h>
 
 void write9digits(int number) {
