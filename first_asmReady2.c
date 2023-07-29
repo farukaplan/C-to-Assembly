@@ -1,3 +1,6 @@
+//gcc -o output first_asmReady2.c
+//./output
+
 #include <stdio.h>
 
 int main() {
