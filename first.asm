@@ -1,3 +1,6 @@
+;nasm -f elf64 -o output.o first.asm
+;ld -o output output.o
+;./output
 
 section .data
     numbers dq 321762410, 9, 2943018, 0, 19371039, 18, -76241, -208424
