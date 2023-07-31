@@ -1,6 +1,6 @@
-; Name: Faruk 
-; Surname: KAPLAN
-; Student ID: 21050111026
+;nasm -f elf64 -o output.o second.asm
+;ld -o output output.o
+;./output
 
 section .bss
 	buffer: resb 31
