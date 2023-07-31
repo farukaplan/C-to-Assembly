@@ -1,4 +1,4 @@
-//gcc -o output first_asmReady1.c
+//gcc -o output second.c
 //./output
 
 #include <stdio.h>
