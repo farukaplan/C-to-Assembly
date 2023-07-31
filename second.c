@@ -1,3 +1,6 @@
+//gcc -o output first_asmReady1.c
+//./output
+
 #include <stdio.h>
 
 #define abs(z) (z > 0 ? (z) : -(z))
