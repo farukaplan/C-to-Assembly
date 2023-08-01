@@ -1,3 +1,5 @@
+//gcc -o output first_inlineAsmReady.c
+//./output
 
 #include <stdio.h>
 
