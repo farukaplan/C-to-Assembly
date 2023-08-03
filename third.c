@@ -1,3 +1,6 @@
+//gcc -o output third.c
+//./output
+
 #include <stdio.h>
 
 int main()
