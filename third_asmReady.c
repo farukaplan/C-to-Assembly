@@ -1,6 +1,5 @@
-// Name: Faruk
-// Surname: KAPLAN
-// Student ID: 21050111026
+//gcc -o output third_asmReady.c
+//./output
 
 #include <stdio.h>
 
