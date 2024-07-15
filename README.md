@@ -1,13 +1,26 @@
-# C-to-Assembly
+# C to Assembly
 
-Firstly, convert the given c code into asm-ready c code, then convert the asm-ready c code into assembly code.
+Some C to Assembly (x86_64) exercises. There are also inline assembly code examples given.
 
-There is also inline assembly code example given.
+## Requeriments
+- Bash shell (any linux distro) or WSL
+- gcc for .c files
+- nasm for .asm files
 
-For execute these files, you should have Linux or WSL, and you should install gcc and nasm. The execution commands are in these files on upmost line.
+## Build 
+```sh
+# For .c files
+gcc -o file_name file_name.c
+```
 
-Go to these files directory using "cd" command.
+```sh
+# For .asm files
+nasm -f elf64 -o file_name.o file_name.asm
+ld -o file_name file_name.o
+```
 
-Delete "//" in c files and delete ";" in asm files before typing the commands.
-
-
+## Run
+```sh
+# For .c and .asm files
+./file_name
+```
