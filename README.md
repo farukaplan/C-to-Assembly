@@ -24,3 +24,6 @@ ld -o file_name file_name.o
 # For .c and .asm files
 ./file_name
 ```
+
+## To Do
+- [ ] Write makefile
